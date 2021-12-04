@@ -23,7 +23,7 @@
 }
 
 @mixin fullhd {
-  @media screen and (min-width: 1408px) {
+  @media screen and (min-width: 1532px) {
     @content;
   }
 }
