@@ -1,16 +1,45 @@
 import styles from './_header.module.scss'
+import { t } from '../utils/index'
 
 const Header: React.FC = () => (
-  <div className={styles.header}>
-    <div className={styles.headerLogo}>
-      <img src="/images/evmoscope_logo.svg" alt="Evmoscope" />
-      <span>evmoscope</span>
+  <section className={styles.header}>
+    <div className={styles.headerTop}>
+      <div className={styles.headerTopLogo}>
+        <img src="/images/evmoscope_logo.svg" alt="Evmoscope" />
+        <span>evmoscope</span>
+      </div>
+      <div className={styles.headerTopInput}>
+        <input type="text" placeholder="Search for validator / tx hash / block height / address" />
+        <img src="/images/search.svg" alt="Search" />
+      </div>
     </div>
-    <div className={styles.headerInput}>
-      <input type="text" placeholder="Search for validator / tx hash / block height / address" />
-      <img src="/images/search.svg" alt="Search" />
+    <div className={styles.headerBottom}>
+      <div>
+        <span className={styles.headerBottomTitle}>{t('Chain')}</span>
+        <span className={styles.headerBottomSubtitle}>{t('Evmos')}</span>
+      </div>
+      <div>
+        <span className={styles.headerBottomTitle}>{t('Block Height')}</span>
+        <span className={styles.headerBottomSubtitle}>140575</span>
+      </div>
+      <div>
+        <span className={styles.headerBottomTitle}>{t('Average Block Time')}</span>
+        <span className={styles.headerBottomSubtitle}>6.76 s</span>
+      </div>
+      <div>
+        <span className={styles.headerBottomTitle}>{t('Txs Height')}</span>
+        <span className={styles.headerBottomSubtitle}>84585521</span>
+      </div>
+      <div>
+        <span className={styles.headerBottomTitle}>{t('Average Txs in Block')}</span>
+        <span className={styles.headerBottomSubtitle}>5</span>
+      </div>
+      <div>
+        <span className={styles.headerBottomTitle}>{t('Inflation')}</span>
+        <span className={styles.headerBottomSubtitle}>13.29&#37;</span>
+      </div>
     </div>
-  </div>
+  </section>
 )
 
 export default Header

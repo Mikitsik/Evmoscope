@@ -1,158 +1,192 @@
-@import './../sass/_mixins';
+@import './../sass/_reuse';
 
 .header {
-  padding: 17px 0;
-
-  @include tablet {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 20px 0;
-  }
-
-  @include desktop {
-    padding: 24px 0;
-  }
-
-  @include widescreen {
-    padding: 27px 0;
-  }
-
-  @include fullhd {
-    padding: 30px 0;
-  }
-
-  &Logo {
-    text-align: center;
-    margin-bottom: 22px;
+  &Top {
+    padding: 17px 0;
 
     @include tablet {
-      text-align: unset;
-      margin-bottom: unset;
-    }
-  }
-
-  img {
-    width: 25px;
-
-    @include tablet {
-      width: 39px;
+      display: flex;
+      flex-wrap: wrap;
+      padding: 20px 0;
     }
 
     @include desktop {
-      width: 46px;
+      padding: 24px 0;
     }
 
     @include widescreen {
-      width: 53px;
+      padding: 27px 0;
     }
 
     @include fullhd {
-      width: 60px;
-    }
-  }
-
-  span {
-    bottom: 5px;
-    color: #ffffff;
-    font-size: 2.3rem;
-    font-weight: 200;
-    margin-left: 15px;
-    position: relative;
-
-    @include tablet {
-      font-size: 2.9rem;
+      padding: 30px 0;
     }
 
-    @include desktop {
-      font-size: 3.6rem;
-    }
-
-    @include widescreen {
-      font-size: 4.3rem;
-    }
-
-    @include fullhd {
-      font-size: 5rem;
-    }
-  }
-
-  &Input {
-    align-items: end;
-    flex-grow: 1;
-    position: relative;
-
-    @include tablet {
-      margin-left: 80px;
-    }
-
-    @include desktop {
-      margin-left: 150px;
-    }
-
-    input {
-      background-color: #05050f;
-      border: 1px solid #ffffff;
-      border-radius: 7px;
-      color: #ffffff;
-      font-size: 0.8rem;
-      padding: 6px 40px 6px 17px;
-      transform: translateY(-12px);
-      width: 100%;
+    &Logo {
+      text-align: center;
+      margin-bottom: 22px;
 
       @include tablet {
-        border-radius: 7px;
-        font-size: 0.8rem;
-        padding: 6px 40px 6px 17px;
-        transform: translateY(28px);
-      }
-
-      @include desktop {
-        border-radius: 8px;
-        font-size: 1rem;
-        padding: 7px 42px 7px 19px;
-        transform: translateY(33px);
-
-      }
-
-      @include widescreen {
-        transform: translateY(42px);
-      }
-
-      @include fullhd {
-        font-size: 1.125rem;
-        padding: 8px 43px 8px 20px;
-        transform: translateY(47px);
-        width: 100%;
+        text-align: unset;
+        margin-bottom: unset;
       }
     }
 
     img {
-      position: absolute;
-      right: 11px;
-      bottom: 18px;
-      width: 16px;
+      width: 25px;
 
       @include tablet {
-        right: 11px;
-        bottom: 18px;
-        width: 16px;
+        width: 39px;
       }
 
       @include desktop {
-        right: 12px;
-        bottom: 22px;
-        width: 18px;
+        width: 46px;
       }
 
       @include widescreen {
-        bottom: 26px;
+        width: 53px;
       }
 
       @include fullhd {
-        right: 12px;
-        bottom: 29px;
-        width: 22px;
+        width: 60px;
       }
+    }
+
+    span {
+      bottom: 5px;
+      color: $main-color;
+      font-size: 2.3rem;
+      font-weight: 200;
+      margin-left: 15px;
+      position: relative;
+
+      @include tablet {
+        font-size: 2.9rem;
+      }
+
+      @include desktop {
+        font-size: 3.6rem;
+      }
+
+      @include widescreen {
+        font-size: 4.3rem;
+      }
+
+      @include fullhd {
+        font-size: 5rem;
+      }
+    }
+
+    &Input {
+      align-items: end;
+      flex-grow: 1;
+      position: relative;
+
+      @include tablet {
+        margin-left: 80px;
+      }
+
+      @include desktop {
+        margin-left: 150px;
+      }
+
+      input {
+        background-color: $main-background-color;
+        border: 1px solid $main-color;
+        border-radius: 7px;
+        box-sizing: border-box;
+        color: $main-color;
+        font-size: 0.8rem;
+        padding: 6px 40px 6px 17px;
+        transform: translateY(-12px);
+        width: 100%;
+
+        @include tablet {
+          border-radius: 7px;
+          font-size: 0.8rem;
+          padding: 6px 40px 6px 17px;
+          transform: translateY(28px);
+        }
+
+        @include desktop {
+          border-radius: 8px;
+          font-size: 1rem;
+          padding: 7px 42px 7px 19px;
+          transform: translateY(33px);
+
+        }
+
+        @include widescreen {
+          transform: translateY(42px);
+        }
+
+        @include fullhd {
+          font-size: 1.125rem;
+          padding: 8px 43px 8px 20px;
+          transform: translateY(47px);
+          width: 100%;
+        }
+      }
+
+      img {
+        position: absolute;
+        right: 11px;
+        bottom: 18px;
+        width: 16px;
+
+        @include tablet {
+          right: 11px;
+          bottom: 18px;
+          width: 16px;
+        }
+
+        @include desktop {
+          right: 12px;
+          bottom: 22px;
+          width: 18px;
+        }
+
+        @include widescreen {
+          bottom: 26px;
+        }
+
+        @include fullhd {
+          right: 12px;
+          bottom: 29px;
+          width: 22px;
+        }
+      }
+    }
+  }
+
+  &Bottom {
+    display: flex;
+    flex-wrap: wrap;
+    color: $main-color;
+    justify-content: space-between;
+    margin-top: 10px;
+
+    div {
+      &:first-child {
+        margin: 0 15px 0 0;
+      }
+
+      &:last-child {
+        margin: 0 0 0 15px;
+      }
+    }
+
+    &Title {
+      color: #8C58CD;
+      font-size: 1.1rem;
+      margin-right: 10px;
+      text-transform: lowercase;
+    }
+
+    &Subtitle {
+      color: #75CA6F;
+      font-size: 1.3rem;
+      text-transform: uppercase;
     }
   }
 }
