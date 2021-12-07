@@ -1,5 +1,5 @@
 import styles from './_header.module.scss'
-import { t } from '../utils/index'
+import { t } from '../../utils/index'
 
 const Header: React.FC = () => (
   <section className={styles.header}>
@@ -7,6 +7,13 @@ const Header: React.FC = () => (
       <div className={styles.headerTopLogo}>
         <img src="/images/evmoscope_logo.svg" alt="Evmoscope" />
         <span>evmoscope</span>
+      </div>
+      <div className={styles.headerTopWallet}>
+        <div className={styles.headerTopWalletWrapper}>
+          <div className={styles.headerTopWalletButton}>
+            <span>{t('Connect')}</span>
+          </div>
+        </div>
       </div>
       <div className={styles.headerTopInput}>
         <input type="text" placeholder="Search for validator / tx hash / block height / address" />

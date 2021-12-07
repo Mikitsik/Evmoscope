@@ -1,25 +1,27 @@
-@import './../sass/_reuse';
+@import './../../sass/_reuse';
 
 .header {
+  color: $white;
+
   &Top {
-    padding: 17px 0;
+    padding: 17px 0 3px;
 
     @include tablet {
       display: flex;
       flex-wrap: wrap;
-      padding: 20px 0;
+      padding: 20px 0 3px;
     }
 
     @include desktop {
-      padding: 24px 0;
+      padding: 24px 0 3px;
     }
 
     @include widescreen {
-      padding: 27px 0;
+      padding: 27px 0 4px;
     }
 
     @include fullhd {
-      padding: 30px 0;
+      padding: 30px 0 5px;
     }
 
     &Logo {
@@ -30,50 +32,81 @@
         text-align: unset;
         margin-bottom: unset;
       }
+
+      span {
+        bottom: 5px;
+        font-size: 2.3rem;
+        font-weight: 200;
+        margin-left: 15px;
+        position: relative;
+
+        @include tablet {
+          font-size: 2.9rem;
+        }
+
+        @include desktop {
+          font-size: 3.6rem;
+        }
+
+        @include widescreen {
+          font-size: 4.3rem;
+        }
+
+        @include fullhd {
+          font-size: 5rem;
+        }
+      }
+
+      img {
+        width: 25px;
+
+        @include tablet {
+          width: 39px;
+        }
+
+        @include desktop {
+          width: 46px;
+        }
+
+        @include widescreen {
+          width: 53px;
+        }
+
+        @include fullhd {
+          width: 60px;
+        }
+      }
     }
 
-    img {
-      width: 25px;
+    &Wallet {
+      margin: 0 90px;
+      display: flex;
+      align-items: flex-end;
 
-      @include tablet {
-        width: 39px;
+      &Wrapper {
+        margin-bottom: 18px;
       }
 
-      @include desktop {
-        width: 46px;
-      }
+      &Button {
+        border: 1px solid $white;
+        border-radius: 12px;
+        cursor: pointer;
+        padding: 8px 22px 10px;
 
-      @include widescreen {
-        width: 53px;
-      }
+        span {
+          font-size: 1.4rem;
+          letter-spacing: 3px;
+          text-transform: lowercase;
+        }
 
-      @include fullhd {
-        width: 60px;
-      }
-    }
+        &:hover {
+          background-color: $white;
+          transition: all 0.5s;
 
-    span {
-      bottom: 5px;
-      color: $main-color;
-      font-size: 2.3rem;
-      font-weight: 200;
-      margin-left: 15px;
-      position: relative;
-
-      @include tablet {
-        font-size: 2.9rem;
-      }
-
-      @include desktop {
-        font-size: 3.6rem;
-      }
-
-      @include widescreen {
-        font-size: 4.3rem;
-      }
-
-      @include fullhd {
-        font-size: 5rem;
+          span {
+            color: $black;
+          }
+        }
       }
     }
 
@@ -82,20 +115,11 @@
       flex-grow: 1;
       position: relative;
 
-      @include tablet {
-        margin-left: 80px;
-      }
-
-      @include desktop {
-        margin-left: 150px;
-      }
-
       input {
-        background-color: $main-background-color;
-        border: 1px solid $main-color;
+        background-color: $black;
+        border: 1px solid $white;
         border-radius: 7px;
         box-sizing: border-box;
-        color: $main-color;
         font-size: 0.8rem;
         padding: 6px 40px 6px 17px;
         transform: translateY(-12px);
@@ -162,9 +186,8 @@
   &Bottom {
     display: flex;
     flex-wrap: wrap;
-    color: $main-color;
     justify-content: space-between;
-    margin-top: 10px;
+    margin: 40px 0 50px;
 
     div {
       &:first-child {
@@ -177,14 +200,14 @@
     }
 
     &Title {
-      color: #8C58CD;
+      color: #9595e4;
       font-size: 1.1rem;
       margin-right: 10px;
       text-transform: lowercase;
     }
 
     &Subtitle {
-      color: #75CA6F;
+      color: #bdbdff;
       font-size: 1.3rem;
       text-transform: uppercase;
     }

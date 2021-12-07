@@ -1,0 +1,45 @@
+@import './../../../sass/reuse';
+
+.blocks {
+  margin: 30px 40px;
+
+  &Header {
+    display: flex;
+    padding: 0 10px;
+
+    span {
+      font-size: 1.2rem;
+      padding: 15px 0;
+    }
+
+    &Height {
+      flex-basis: 180px;
+    }
+
+    &Hash {
+      flex-basis: 690px;
+    }
+
+    &Proposer {
+      flex-basis: 300px;
+    }
+
+    &Txs {
+      flex-basis: 90px;
+    }
+
+    &Time {
+      flex-basis: 210px;
+    }
+  }
+}
+
+.block {
+  border-top: 1px solid $white;
+  display: flex;
+  padding: 0 10px;
+
+  span {
+    padding: 12px 0;
+  }
+}
