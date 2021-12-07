@@ -4,12 +4,13 @@
   margin: 30px 40px;
 
   &Header {
+    color: $main-blue;
     display: flex;
     padding: 0 10px;
 
     span {
       font-size: 1.2rem;
-      padding: 15px 0;
+      padding: 18px 0;
     }
 
     &Height {
@@ -36,10 +37,28 @@
 
 .block {
   border-top: 1px solid $white;
+  color: $blue;
   display: flex;
-  padding: 0 10px;
 
   span {
-    padding: 12px 0;
+    cursor: pointer;
+    padding: 15px 10px;
+  }
+
+  &TabActive {
+    background-color: $white;
+    border-top: 2px solid $black;
+    color: $black;
+
+    span {
+      cursor: unset;
+      padding: 15px 0;
+    }
+  }
+
+  &Expand {
+    background-color: $white;
+    color: $black;
+    padding: 15px;
   }
 }

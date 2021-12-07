@@ -26,6 +26,10 @@ const Header: React.FC = () => (
         <span className={styles.headerBottomSubtitle}>{t('Evmos')}</span>
       </div>
       <div>
+        <span className={styles.headerBottomTitle}>{t('Supply')}</span>
+        <span className={styles.headerBottomSubtitle}>5,014,857.33 {t('Photon')}</span>
+      </div>
+      <div>
         <span className={styles.headerBottomTitle}>{t('Block Height')}</span>
         <span className={styles.headerBottomSubtitle}>140575</span>
       </div>
@@ -34,12 +38,8 @@ const Header: React.FC = () => (
         <span className={styles.headerBottomSubtitle}>6.76 s</span>
       </div>
       <div>
-        <span className={styles.headerBottomTitle}>{t('Txs Height')}</span>
+        <span className={styles.headerBottomTitle}>{t('Txs Total')}</span>
         <span className={styles.headerBottomSubtitle}>84585521</span>
-      </div>
-      <div>
-        <span className={styles.headerBottomTitle}>{t('Average Txs in Block')}</span>
-        <span className={styles.headerBottomSubtitle}>5</span>
       </div>
       <div>
         <span className={styles.headerBottomTitle}>{t('Inflation')}</span>

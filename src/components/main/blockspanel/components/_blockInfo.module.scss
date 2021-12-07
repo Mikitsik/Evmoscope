@@ -1,0 +1,16 @@
+@import './../../../../sass/reuse';
+
+.blockInfo {
+  &Item {
+    display: flex;
+    padding: 10px 0;
+
+    &Title {
+      flex-basis: 200px;
+    }
+
+    &Description {
+      flex-basis: 500px;
+    }
+  }
+}
