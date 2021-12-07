@@ -14,24 +14,31 @@
     }
 
     &Height {
-      flex-basis: 180px;
+      flex-basis: 190px;
     }
 
     &Hash {
-      flex-basis: 690px;
+      flex-basis: 625px;
     }
 
     &Proposer {
-      flex-basis: 300px;
+      flex-basis: 186px;
     }
 
     &Txs {
-      flex-basis: 90px;
+      flex-basis: 193px;
     }
 
     &Time {
-      flex-basis: 210px;
+      flex-basis: 92px;
     }
+  }
+
+  &Button {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 1.7rem;
+    font-weight: 500;
   }
 }
 
@@ -59,6 +66,6 @@
   &Expand {
     background-color: $white;
     color: $black;
-    padding: 15px;
+    padding: 25px 15px;
   }
 }

@@ -3,6 +3,7 @@ import styles from './../_blocksPanel.module.scss'
 import { useState } from 'react'
 import classNames from 'classnames'
 import BlockInfo from './BlockInfo'
+import Proposer from './Proposer'
 
 const Block: React.FC = () => {
   const [isExpand, setIsExpand] = useState<{
@@ -75,7 +76,7 @@ const Block: React.FC = () => {
         <span
           className={classNames(styles.blocksHeaderHeight, { [styles.blockTabActive]: isExpand.isTxs })}
           onClick={expandTxs}
-        >12</span>
+        >3</span>
         <span
           className={classNames(styles.blocksHeaderHeight, { [styles.blockTabActive]: isExpand.isTime })}
           onClick={expandTime}
@@ -84,6 +85,11 @@ const Block: React.FC = () => {
       {isExpand.isBlockInfo && (
         <div className={styles.blockExpand}>
           <BlockInfo />
+        </div>
+      )}
+      {isExpand.isProposer && (
+        <div className={styles.blockExpand}>
+          <Proposer />
         </div>
       )}
     </>

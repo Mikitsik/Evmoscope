@@ -3,6 +3,13 @@ import { t } from '../../../utils'
 import Block from './components/Block'
 
 const BlocksPanel: React.FC = () => {
+  const fakeArray = (start, end) => {
+    const result: number[] = [];
+    for (let i = start; i <= end; i++) {
+        result.push(i);
+    }
+    return result;
+  }
 
   return (
     <div className={styles.blocks}>
@@ -13,11 +20,14 @@ const BlocksPanel: React.FC = () => {
         <span className={styles.blocksHeaderTxs}>{t('Txs')}</span>
         <span className={styles.blocksHeaderTime}>{t('Time')}</span>
       </div>
-      <Block />
-      <Block />
-      <Block />
-      <Block />
-      <Block />
+      {fakeArray(1, 20).map((_, i) => {
+        return (
+          <Block key={i} />
+        )
+      })}
+      <div className={styles.blocksButton}>
+        <span>{t('Show More')}</span>
+      </div>
     </div>
   )
 }

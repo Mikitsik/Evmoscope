@@ -30,7 +30,7 @@ return isActive ? <div className={styles.panel}>{children}</div> : null
 }
 
 const Main: React.FC = () => {
-  const [tabState, setTabState] = useState<number>(1)
+  const [tabState, setTabState] = useState<number>(0)
 
 
   return (
