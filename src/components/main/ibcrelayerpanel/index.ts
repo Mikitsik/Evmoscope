@@ -1,3 +1,3 @@
-import IBCRelayerPanel from './IBCRelayerPanel'
+import IbcRelayerPanel from './IbcRelayerPanel'
 
-export { IBCRelayerPanel }
+export { IbcRelayerPanel }

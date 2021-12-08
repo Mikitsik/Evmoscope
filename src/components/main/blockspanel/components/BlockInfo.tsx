@@ -45,7 +45,7 @@ const BlockInfo: React.FC = () => (
     </div>
     <div className={styles.blockInfoItem}>
       <span className={styles.blockInfoItemTitle}>{t('Proposer Address')}</span>
-      <span className={styles.blockInfoItemDescription}>RubyFun</span>
+      <span className={styles.blockInfoItemDescription}>StakeBenefit</span>
     </div>
   </>
 )

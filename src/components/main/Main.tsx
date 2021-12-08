@@ -5,7 +5,8 @@ import classNames from 'classnames'
 import { BlocksPanel } from './blockspanel'
 import { TxsPanel } from './txspanel'
 import { ValidatorsPanel } from './validatorspanel'
-import { IBCRelayerPanel } from './ibcrelayerpanel'
+import { IbcRelayerPanel } from './ibcrelayerpanel'
+import { EvmPanel } from './evmpanel'
 import { useState } from 'react'
 
 const Tab = ({ children }) => {
@@ -41,6 +42,7 @@ const Main: React.FC = () => {
           <Tab><span>{t('Transactions')}</span></Tab>
           <Tab><span>{t('Validators')}</span></Tab>
           <Tab><span>{t('IBC Relayer')}</span></Tab>
+          <Tab><span>{t('EVM')}</span></Tab>
         </div>
         <div className={styles.mainPanels}>
           <Panel>
@@ -53,7 +55,10 @@ const Main: React.FC = () => {
             <ValidatorsPanel />
           </Panel>
           <Panel>
-            <IBCRelayerPanel />
+            <IbcRelayerPanel />
+          </Panel>
+          <Panel>
+            <EvmPanel />
           </Panel>
         </div>
       </Tabs>
