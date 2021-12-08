@@ -6,6 +6,23 @@
   &Tabswrapper {
     display: flex;
   }
+  &Button {
+    cursor: pointer;
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  &Social {
+    text-align: center;
+
+    img {
+      cursor: pointer;
+      margin: 120px 15px 60px;
+      width: 30px;
+    }
+  }
 }
 
 .tab {

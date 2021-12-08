@@ -15,7 +15,7 @@ const Proposer: React.FC = () => {
       <section className={styles.validator}>
         <div className={styles.validatorCommon}>
           <div>
-            <img src="/images/stakebenefit_logo.svg" alt="" />
+            <img src="/images/stakebenefit_logo.svg" alt="StakeBenefit" />
           </div>
           <div>
             <div className={styles.validatorCommonTitle}>StakeBenefit</div>

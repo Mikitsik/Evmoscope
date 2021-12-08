@@ -25,9 +25,6 @@ const BlocksPanel: React.FC = () => {
           <Block key={i} />
         )
       })}
-      <div className={styles.blocksButton}>
-        <span>{t('Show More')}</span>
-      </div>
     </div>
   )
 }
