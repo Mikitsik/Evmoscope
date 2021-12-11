@@ -37,7 +37,6 @@
         bottom: 5px;
         font-size: 2.3rem;
         font-weight: 200;
-        margin-left: 15px;
         position: relative;
 
         @include tablet {
@@ -58,23 +57,7 @@
       }
 
       img {
-        width: 25px;
-
-        @include tablet {
-          width: 39px;
-        }
-
-        @include desktop {
-          width: 46px;
-        }
-
-        @include widescreen {
-          width: 53px;
-        }
-
-        @include fullhd {
-          width: 60px;
-        }
+        width: 70px;
       }
     }
 
@@ -120,36 +103,10 @@
         border: 1px solid $white;
         border-radius: 7px;
         box-sizing: border-box;
-        font-size: 0.8rem;
-        padding: 6px 40px 6px 17px;
-        transform: translateY(-12px);
+        font-size: 1.125rem;
+        padding: 8px 43px 8px 20px;
+        transform: translateY(33px);
         width: 100%;
-
-        @include tablet {
-          border-radius: 7px;
-          font-size: 0.8rem;
-          padding: 6px 40px 6px 17px;
-          transform: translateY(28px);
-        }
-
-        @include desktop {
-          border-radius: 8px;
-          font-size: 1rem;
-          padding: 7px 42px 7px 19px;
-          transform: translateY(33px);
-
-        }
-
-        @include widescreen {
-          transform: translateY(42px);
-        }
-
-        @include fullhd {
-          font-size: 1.125rem;
-          padding: 8px 43px 8px 20px;
-          transform: translateY(47px);
-          width: 100%;
-        }
       }
 
       img {
