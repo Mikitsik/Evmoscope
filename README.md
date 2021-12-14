@@ -17,9 +17,9 @@
 
 ## What is the Metaverse?
 
-Metaverse Legend: "...in the deep rough Cosmos there is the marvelous planet Evmos inhabited with cute and smart Evmosians. And every Evmosian has its own Hamanets to interact with any chains and its own Evmoscope  to carefully explore, examine and start the enigmatic beginning…"
+[Before The Metaverse Legend:](https://www.youtube.com/watch?v=ik0eeYC87sc) "...in the deep rough Cosmos there is the marvelous planet Evmos inhabited with cute and smart Evmosians. And every Evmosian has its own Hamanets to interact with any chains and its own Evmoscope  to carefully explore, examine and start the enigmatic beginning…"
 
-Yeah, there is Metaverse with Evmosians who can play metaverse only if he has Evmoscope and Hamanets with any Evmos address. Evmoscope is a game console and Hamanets is a key to playing Metaverse but at the same time they're separate and independent apps.
+Yeah, there is Metaverse with Evmosians who can play Metaverse only if he has Evmoscope and Hamanets with any Evmos address. Evmoscope is a game console and Hamanets is a key to playing Metaverse but at the same time, they're separate and independent apps.
 
 ## What is the Evmoscope?
 
