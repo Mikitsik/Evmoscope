@@ -23,11 +23,11 @@ Yeah, there is Metaverse with Evmosians who can play Metaverse only if he has Ev
 
 ## What is the Evmoscope?
 
-Evmoscope Legend: "...there is an alien's blockchain browser that why it is so weird..."
+Evmoscope Legend: "...there is an alien's blockchain browser that is why it so weird..."
 
 Evmoscope runs like a game console to Metaverse P2Earn Game but the same time it is an independent app with vast functionality. It has at least three layers:
 
-# Evmoscope layer one
+### Evmoscope layer one
 
 Layer One allows any person to use [Evmoscope](https://evmoscope.stakebenefit.com/).
 
@@ -40,7 +40,11 @@ It has many Tabs with Lists of data:
   - Validators
   - Accounts
 
-It is convenient to open a part of data at the same places as Dropdowns. And one can access the same data through any Tab. Is it weird as to Evmosian Browser? In addition to their own Search panel on each Tab?
+It is convenient to open each part of data at the same place on Dropdowns. And one can access the same data through any Tab. Is it weird as to Evmosian Browser? In addition to their own Search panel on each Tab?
+
+### Evmoscope layer two
+
+
 
 ## Available Scripts
 
