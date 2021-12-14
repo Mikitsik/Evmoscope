@@ -42,7 +42,17 @@ It has many Tabs with Lists of data:
 
 It is convenient to open each part of data at the same place on Dropdowns. And one can access the same data through any Tab. Is it weird as to Evmosian Browser? In addition to their own Search panel on each Tab?
 
-### Evmoscope layer two
+### Evmoscope API
+
+Back-end API is a high structured Ruby-on-Rails server that treats Big Data coming from blockchain databases. To quickly give to user data it has a layer that caches some data. The API has special algorithms for special reasons.
+
+### Evmoscope Layer Two
+
+This layer is available when the user connects his Hamanets to Evmoscope. This layer is also known as "private" because of any Evmos addressability to play Metaverse. The user would have a personal area with many new functions to be available. The user would be allowed to pull in or pull out any Tabs he wants, any data on the mainboard showing. He would be allowed for instance to stake or swap any coins he wants due to full Evmos Core functionality. He would be allowed to perfect guides on how to build his own smart contract and how to implement it to the Evmos EVM, etc.
+
+There is a button on the left side of Evmoscope. When the user pulls on it the private area with many settings appears when all Tabs slide down to the left like a curtain.
+
+### Evmoscope Layer Three
 
 
 

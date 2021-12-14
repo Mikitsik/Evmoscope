@@ -11,7 +11,7 @@ const Header: React.FC = () => (
       <div className={styles.headerTopWallet}>
         <div className={styles.headerTopWalletWrapper}>
           <div className={styles.headerTopWalletButton}>
-            <span>{t('Connect')}</span>
+            <span>{t('Enter')}</span>
           </div>
         </div>
       </div>
