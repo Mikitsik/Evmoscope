@@ -19,13 +19,13 @@
 
 [Before The Metaverse Legend:](https://www.youtube.com/watch?v=ik0eeYC87sc) "...in the deep rough Cosmos there is the marvelous planet Evmos inhabited with cute and smart Evmosians. And every Evmosian has its own Hamanets to interact with any chains and its own Evmoscope  to carefully explore, examine and start the enigmatic beginning…"
 
-Yeah, there is Metaverse with Evmosians who can play Metaverse only if he has Evmoscope and Hamanets with any Evmos address. Evmoscope is a game console and Hamanets is a key to playing Metaverse but at the same time, they're separate and independent apps.
+Every Evmos address is eligible to play Metaverse. What one Evmosian should have got to play the Game is Evmoscope an alien blockchain browser (the game console) and is Hamanets an alien wallet (the key to the game console).
+Evmoscope is an independent and separate app as so Hamanets do. At the same time, it could be bound to the particular wallet and start the Game.
 
-## What is the Evmoscope?
+## What is Evmoscope?
 
-Evmoscope Legend: "...there is an alien's blockchain browser that is why it so weird..."
-
-Evmoscope runs like a game console to Metaverse P2Earn Game but the same time it is an independent app with vast functionality. It has at least three layers:
+Evmoscope: "...there is an alien's browser that's why it is a little weird..."
+Evmoscope has at least three layers:
 
 ### Evmoscope layer one
 
